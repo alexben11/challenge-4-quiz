@@ -10,53 +10,50 @@
 
   <body>
     <!-- create area to place highscore and timer-->
-    <h1>Highscore</h1>
-    <h5 id="countdown"></h5>
+    <section class="timer">
+      <h1>Highscore</h1>
+      <h5 id="countdown"></h5>
+    </section>
+
+    
     <!-- create welcome message-->
+    <div class="welcome">
     <h1>Coding Quiz Challenge</h1>
     <p>Try to answer the following code-related questions within the time limit.  Keep in mind the incorrect answers will penalize your score time by 10 seconds</p>
-    <!-- create start button-->
-    <button>Start</button>
-    <!--create space for Q&A-->
+    </div>
     
-    <div class="card">
-      <h2>Question 1</h2>
-        <ol>
-          <button>Answer 1</button>
-          <button>Answer 2</button>
-          <button>Answer 3</button>
-          <button>Answer 4</button>
-        </ol>
-    <!--create space for rigth or wrong answer status-->
+    <!--create space for Q&A-->
+      <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+              <button id="btn">Answer 1</button>
+              <button id="btn">Answer 2</button>
+              <button id="btn">Answer 3</button>
+              <button id="btn">Answer 4</button>
+            </div>
+        </div>
+      </div>
+      
+          <!-- create start button-->
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn hide">Start</button>
+      <button id="next-btn" class="next-btn btn hide" >Next</button>
+    </div>
 
-    <div>Answer status</div>
+    <!--create space for rigth or wrong answer status-->
+      <div class="status">Answer status</div>
 
     <!--create space for conclusion, score, input initials and submit to Highscores page-->
-    <h2>Highscores</h2>
-    <div>Initials and score</div>
-    <button>Go Back</button>
-    <button>Clear Highscores</button>
-
-<!-- 
-
-
-      <div>
-        <h3 id="question">Commonly used datatypes DO NOT<br>include:</h3>
-        <ol>
-          <li> <button id="one">Strings</button></li>
-          <li> <button id="two">Booleans</button></li>
-          <li> <button id="three">Alerts</button></li>
-          <li> <button id="four">Numbers</button></li>
-        </ol>
-      <button id="save">SAVE</button>
-      </div> 
-
-      <div>
-        <Button>Start</Button>
-      </div>
-      <h3 class="message"></h3>    -->
-    
+    <div class="results">
+      <h2>Highscores</h2>
+      <div>Initials and score</div>
+      <button>Go Back</button>
+      <button>Clear Highscores</button>
+    </div>
     <script src="./script.js"></script>
-  </body>
+
+    </body>
+
 </html>
 

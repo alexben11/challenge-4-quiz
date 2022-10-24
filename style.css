@@ -9,7 +9,56 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #eff5f8;
   color: #001b44;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
 }
+  
+
+/* .container {
+  width: 800px;
+  max-width: 80%;
+  background-color: blue;
+  align-items: left ;
+  display:none;
+
+}
+
+.welcome {
+  
+  
+}
+.welcome h1{
+background-color: yellow;
+display: flex;
+justify-content: center;  
+align-items: center;
+
+
+
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+}
+
+.timer h5 {
+  margin:auto
+}
+
+.status {
+  display: none;
+}
+
+.results {
+  display: none;
+}
+
+#next-btn {
+  display: none;
+} */
 
 /*
 h2,
